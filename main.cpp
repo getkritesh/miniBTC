@@ -153,7 +153,7 @@ int main(int argc,const char **argv)
 						printf("Processing block: %d\r\n", i);
 					}
 					const BlockChain::Block *block = b->readBlock(i);
-					b->printBlock(block);					
+									
 
 					if (block == nullptr)
 					{

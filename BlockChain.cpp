@@ -1473,6 +1473,70 @@ public:
 		return ret;
 	}
 
+	virtual void printTransactionInBlock(const Block *block)
+	{
+		for (uint32_t i=0; i<block->transactionCount; i++)
+		{
+			const BlockTransaction &t = block->transactions[i];
+			logMessage("Transaction %s : %s inputs %s outputs. VersionNumber: %d\r\n", formatNumber(i), formatNumber(t.inputCount), formatNumber(t.outputCount), t.transactionVersionNumber );
+			logMessage("TransactionHash: ");
+			printReverseHash(t.transactionHash);
+			logMessage("\r\n");
+			for (uint32_t i=0; i<t.inputCount; i++)
+			{
+				const BlockInput &input = t.inputs[i];
+				logMessage("    Input %s : ResponsScriptLength: %s TransactionIndex: %s : TransactionHash: ", formatNumber(i), formatNumber(input.responseScriptLength), formatNumber(input.transactionIndex) );
+
+				printReverseHash(input.transactionHash);
+
+				logMessage("\r\n");
+
+				if ( input.transactionIndex != 0xFFFFFFFF )
+				{
+					const BlockTransaction *t = readSingleTransaction(input.transactionHash);
+					if ( t == NULL )
+					{
+						logMessage("ERROR: TransactionIndex[%d] FAILED TO LOCATE TRANSACTION FOR HASH: ", input.transactionIndex );
+						printReverseHash(input.transactionHash);
+						logMessage("\r\n");
+					}
+					else
+					{
+						if ( input.transactionIndex < t->outputCount )
+						{
+							const BlockOutput &o = t->outputs[input.transactionIndex];
+							if ( o.publicKey[0] )
+							{
+								logMessage("     Spending From Public Key: %s in the amount of: %0.4f\r\n", o.asciiAddress, (float)o.value / ONE_BTC );
+							}
+							else
+							{
+								logMessage("ERROR: No public key found for this previous output.\r\n");
+							}
+						}
+						else
+						{
+							logMessage("ERROR: Invalid transaction index!\r\n");
+						}
+					}
+				}
+			}
+			for (uint32_t i=0; i<t.outputCount; i++)
+			{
+				const BlockOutput &output = t.outputs[i];
+				logMessage("    Output: %s : %f BTC : ChallengeScriptLength: %s\r\n", formatNumber(i), (float)output.value / ONE_BTC, formatNumber(output.challengeScriptLength) );
+				if ( output.publicKey[0] )
+				{
+					logMessage("PublicKey: %s : %s\r\n", output.asciiAddress, output.keyTypeName );
+				}
+				else
+				{
+					logMessage("ERROR: Unable to derive a public key for this output!\r\n");
+				}
+			}
+		}
+		
+	}
 
 	// print the contents of this block
 	virtual void printBlock(const Block *block) // prints the contents of the block to the console for debugging purposes

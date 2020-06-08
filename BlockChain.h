@@ -177,6 +177,9 @@ public:
 	// print the contents of this block
 	virtual void printBlock(const Block *b) = 0;
 
+	// print the contents of this block
+	virtual void printTransactionInBlock(const Block *b) = 0;
+
 	virtual void release(void) = 0;	// This method releases the block chain interface.
 
 protected:
