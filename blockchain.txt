@@ -1,0 +1,227 @@
+A pre-processed transactions database already exists!
+Are you sure you want to delete it and start over?
+Opened blockchain file './blk00000.dat' for read access.
+Found 59,572 block headers total.
+Building complete block-chain.
+Found 59,572 blocks and skipped 0 orphan blocks.
+Gathering 59,572 block headers.
+==========================================================================================
+Block #0
+ComputedBlockHash: 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
+PreviousBlockHash:0000000000000000000000000000000000000000000000000000000000000000
+NextBlockHash:00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048
+Merkle root: 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
+Number of Transactions: 1
+Timestamp : 01/03/2009 18:15:05
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2783203125 KB or 285 bytes.
+Version: 1
+Nonce: 2083236893
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
+    Input 0 : ResponsScriptLength: 77 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+Checkpointing the transaction file which contains 1 transactions.
+Processed 1 transactions with 1 unique public keys.
+Checkpointing the PublicKeys file
+==========================================================================================
+Block #1
+ComputedBlockHash: 00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048
+PreviousBlockHash:000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
+NextBlockHash:000000006a625f06636b8bb6ac7b960a8d03705d1ace08b1a19da3fdcc99ddbd
+Merkle root: 0e3e2357e806b6cdb1f70b54c3a3a17b6714ee1f0e68bebb44a74b1efd512098
+Number of Transactions: 1
+Timestamp : 01/09/2009 02:54:25
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 2573394689
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 0e3e2357e806b6cdb1f70b54c3a3a17b6714ee1f0e68bebb44a74b1efd512098
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 12c6DSiU4Rq3P4ZxziKxzrL5LmMBrzjrJX : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #2
+ComputedBlockHash: 000000006a625f06636b8bb6ac7b960a8d03705d1ace08b1a19da3fdcc99ddbd
+PreviousBlockHash:00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048
+NextBlockHash:0000000082b5015589a3fdf2d4baff403e6f0be035a5d9742c1cae6295464449
+Merkle root: 9b0fc92260312ce44e74ef369f5c66bbb85848f2eddd5a7a1cde251e54ccfdd5
+Number of Transactions: 1
+Timestamp : 01/09/2009 02:55:44
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 1639830024
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 9b0fc92260312ce44e74ef369f5c66bbb85848f2eddd5a7a1cde251e54ccfdd5
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 1HLoD9E4SDFFPDiYfNYnkBLQ85Y51J3Zb1 : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #3
+ComputedBlockHash: 0000000082b5015589a3fdf2d4baff403e6f0be035a5d9742c1cae6295464449
+PreviousBlockHash:000000006a625f06636b8bb6ac7b960a8d03705d1ace08b1a19da3fdcc99ddbd
+NextBlockHash:000000004ebadb55ee9096c9a2f8880e09da59c0d68b1c228da88e48844a1485
+Merkle root: 999e1c837c76a1b7fbb7e57baf87b309960f5ffefbf2a9b95dd890602272f644
+Number of Transactions: 1
+Timestamp : 01/09/2009 03:02:53
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 1844305925
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 999e1c837c76a1b7fbb7e57baf87b309960f5ffefbf2a9b95dd890602272f644
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 1FvzCLoTPGANNjWoUo6jUGuAG3wg1w4YjR : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #4
+ComputedBlockHash: 000000004ebadb55ee9096c9a2f8880e09da59c0d68b1c228da88e48844a1485
+PreviousBlockHash:0000000082b5015589a3fdf2d4baff403e6f0be035a5d9742c1cae6295464449
+NextBlockHash:000000009b7262315dbf071787ad3656097b892abffd1f95a1a022f896f533fc
+Merkle root: df2b060fa2e5e9c8ed5eaf6a45c13753ec8c63282b2688322eba40cd98ea067a
+Number of Transactions: 1
+Timestamp : 01/09/2009 03:16:28
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 2850094635
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: df2b060fa2e5e9c8ed5eaf6a45c13753ec8c63282b2688322eba40cd98ea067a
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 15ubicBBWFnvoZLT7GiU2qxjRaKJPdkDMG : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #5
+ComputedBlockHash: 000000009b7262315dbf071787ad3656097b892abffd1f95a1a022f896f533fc
+PreviousBlockHash:000000004ebadb55ee9096c9a2f8880e09da59c0d68b1c228da88e48844a1485
+NextBlockHash:000000003031a0e73735690c5a1ff2a4be82553b2a12b776fbd3a215dc8f778d
+Merkle root: 63522845d294ee9b0188ae5cac91bf389a0c3723f084ca1025e7d9cdfe481ce1
+Number of Transactions: 1
+Timestamp : 01/09/2009 03:23:48
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 2011431709
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 63522845d294ee9b0188ae5cac91bf389a0c3723f084ca1025e7d9cdfe481ce1
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 1JfbZRwdDHKZmuiZgYArJZhcuuzuw2HuMu : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #6
+ComputedBlockHash: 000000003031a0e73735690c5a1ff2a4be82553b2a12b776fbd3a215dc8f778d
+PreviousBlockHash:000000009b7262315dbf071787ad3656097b892abffd1f95a1a022f896f533fc
+NextBlockHash:0000000071966c2b1d065fd446b1e485b2c9d9594acd2007ccbd5441cfc89444
+Merkle root: 20251a76e64e920e58291a30d4b212939aae976baca40e70818ceaa596fb9d37
+Number of Transactions: 1
+Timestamp : 01/09/2009 03:29:49
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 2538380312
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 20251a76e64e920e58291a30d4b212939aae976baca40e70818ceaa596fb9d37
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 1GkQmKAmHtNfnD3LHhTkewJxKHVSta4m2a : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #7
+ComputedBlockHash: 0000000071966c2b1d065fd446b1e485b2c9d9594acd2007ccbd5441cfc89444
+PreviousBlockHash:000000003031a0e73735690c5a1ff2a4be82553b2a12b776fbd3a215dc8f778d
+NextBlockHash:00000000408c48f847aa786c2268fc3e6ec2af68e8468a34a28c61b7f1de0dc6
+Merkle root: 8aa673bc752f2851fd645d6a0a92917e967083007d9c1684f9423b100540673f
+Number of Transactions: 1
+Timestamp : 01/09/2009 03:39:29
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 2258412857
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 8aa673bc752f2851fd645d6a0a92917e967083007d9c1684f9423b100540673f
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 16LoW7y83wtawMg5XmT4M3Q7EdjjUmenjM : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #8
+ComputedBlockHash: 00000000408c48f847aa786c2268fc3e6ec2af68e8468a34a28c61b7f1de0dc6
+PreviousBlockHash:0000000071966c2b1d065fd446b1e485b2c9d9594acd2007ccbd5441cfc89444
+NextBlockHash:000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805
+Merkle root: a6f7f1c0dad0f2eb6b13c4f33de664b1b0e9f22efad5994a6d5b6086d85e85e3
+Number of Transactions: 1
+Timestamp : 01/09/2009 03:45:43
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 1716931356
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: a6f7f1c0dad0f2eb6b13c4f33de664b1b0e9f22efad5994a6d5b6086d85e85e3
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 1J6PYEzr4CUoGbnXrELyHszoTSz3wCsCaj : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #9
+ComputedBlockHash: 000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805
+PreviousBlockHash:00000000408c48f847aa786c2268fc3e6ec2af68e8468a34a28c61b7f1de0dc6
+NextBlockHash:000000002c05cc2e78923c34df87fd108b22221ac6076c18f3ade378a4d915e9
+Merkle root: 0437cd7f8525ceed2324359c2d0ba26006d92d856a9c20fa0241106ee5a597c9
+Number of Transactions: 1
+Timestamp : 01/09/2009 03:54:39
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 1397702696
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: 0437cd7f8525ceed2324359c2d0ba26006d92d856a9c20fa0241106ee5a597c9
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000000000
+    Output: 0 : 50.000000 BTC : ChallengeScriptLength: 67
+PublicKey: 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S : UNCOMPRESSED_PUBLIC_KEY
+==========================================================================================
+==========================================================================================
+Block #10
+ComputedBlockHash: 000000002c05cc2e78923c34df87fd108b22221ac6076c18f3ade378a4d915e9
+PreviousBlockHash:000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805
+NextBlockHash:0000000097be56d606cdd9c54b04d4747e957d3608abe69198c661f2add73073
+Merkle root: d3ad39fa52a89997ac7381c95eeffeaf40b66af7a57e9eba144be0a175a12b11
+Number of Transactions: 1
+Timestamp : 01/09/2009 04:05:52
+Bits: 486604799 Hex: 1D00FFFF
+Size: 0.2099609375 KB or 215 bytes.
+Version: 1
+Nonce: 1709518110
+BlockReward: 50.000000
+1 transactions
+Transaction 0 : 1 inputs 1 outputs. VersionNumber: 1
+TransactionHash: d3ad39fa52a89997ac7381c95eeffeaf40b66af7a57e9eba144be0a175a12b11
+    Input 0 : ResponsScriptLength: 7 TransactionIndex: -1 : TransactionHash: 0000000000000000000000000000000000000000000000000000000000

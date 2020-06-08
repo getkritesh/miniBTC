@@ -1,0 +1,12 @@
+#ifndef SHA256_H
+
+#define SHA256_H
+
+
+#include <stdint.h>	// Include stdint.h; available on most compilers but, if not, a copy is provided here for Microsoft Visual Studio
+
+void computeSHA256(const void *input,		// A pointer to the input data to have the SHA256 hash computed for it.
+				   uint32_t size,			// the length of the input data
+				   uint8_t destHash[32]);	// The output 256 bit (32 byte) hash
+
+#endif
