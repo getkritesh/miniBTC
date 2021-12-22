@@ -24,5 +24,5 @@ compile: (runs file a.out)
 ./a.out
 
 The windows executable is called: 
-main.exe 
+main.exe
 
