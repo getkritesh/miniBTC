@@ -19,7 +19,7 @@ compile: (runs file main)
 ./main
 — — — — — — — — — — — — — –
 default: (creates default file: a.out)
-g++ -Wall -std=c++14 main.cpp
+g++ -Wall -std=c++14 main.cpp 
 compile: (runs file a.out)
 ./a.out
 
